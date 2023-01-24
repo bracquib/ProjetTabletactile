@@ -2,6 +2,7 @@ $(document).ready(function() {
    horloge();
    meteo();
     rss();
+    site();
 });
 
 /* meteo */
@@ -74,6 +75,24 @@ function rss ()
 }
 
 
+/*site web*/
+
+var site_timeout;
+
+function site ()
+{
+  $.ajax({
+    async : false,
+    type: "GET",
+    url: "./ajax.php",
+    data: "block=site",
+    success: function(html){
+      $("#site").html(html);
+    }
+  });
+
+  site_timeout = setTimeout("site()", 60000);
+}
 
 
 

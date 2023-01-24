@@ -61,4 +61,16 @@
     }
   
 
+  /////////////////////////////////////////////////
+  //  Site
+  /////////////////////////////////////////////////
+  
+  function site () {
+    $html = '<div id="cont_MzAxNDcyOHwxfDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8">
+    <a id="a_MzAxNDcyOHwxfDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8" href="https://www.polytech-grenoble.fr/fr/" target="_top" style="color:#333;text-decoration:none;">
+    <img src="./polytech.png"></a>
+    </div>';    
+return $html;
+
+  }
 ?>

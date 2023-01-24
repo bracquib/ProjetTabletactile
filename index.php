@@ -20,6 +20,7 @@
       <div id="horloge"></div>
       <div id="meteo"></div>
       <div id="rss"></div>
+      <div id="site"></div>
     </div>
 
   </body>

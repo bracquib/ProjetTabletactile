@@ -134,3 +134,20 @@ div#meteo_black
   margin-left: -25px;
   padding-right: 5px;
 }
+
+/* site */
+
+div#site
+{
+  left              : 0px;
+  top               : 0px;
+  width             : 403px ;
+  height            : 125px ;
+
+  position          : absolute;
+  overflow          : hidden;
+  background-color  : rgba(0, 0, 0, 1);
+  color             : #FFF;
+  font-weight       : bold;
+  text-align        : center;
+}
