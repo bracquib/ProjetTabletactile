@@ -1,56 +1,13 @@
-/* init */
 
-body
-{
-  background-color  : rgb(0, 0, 0);
-  font-family       : Verdana, "Courier New", "Lucida Console";
-  font-size         : 14px;
-  font-weight       : normal;
-  padding           : 0px;
-  margin            : 0px;
-  overflow          : hidden;
-}
-
-div, table, tr, td, th, h1, h2, h3, a, span, p, pre, fieldset, input, textarea, form, img, select
-{
-  font-family       : Verdana, "Courier New", "Lucida Console";
-  font-size         : 14px;
-  font-weight       : normal;
-  padding           : 0px;
-  margin            : 0px;
-  color             : #FFF;
-}
-
-/* main */
- 
-div#main
-{
-  width             : 1800px;
-  height            : 1800px;
-  position          : relative;
-  overflow          : hidden;
-  background-color  : rgb(0, 0, 0);
-  color             : #FFF;
-}
-
-div#etalon
-{
-  top               : 0px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : #0ef10e6e;
-  color             : #FFF;
-  font-size         : 50px;
-}
 /* horloge */
 
 div#horloge
 {
-  right             : 0px;
+  right             :800px;
   top               : 0px;
   position          : absolute;
   overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
+  background-color  : #232323;
   color             : #FFF;
   font-weight       : bold;
   text-align        : center;
@@ -58,14 +15,14 @@ div#horloge
 
 div.horloge_heure
 {
-  font-size         : 180px;
-  background-color  : rgba(0, 0, 0, 1);
+  font-size         : 50px;
+  background-color  : #232323;
 }
 
 div.horloge_date
 {
-  font-size         : 50px;
-  background-color  : rgba(0, 0, 0, 1);
+  font-size         : 20px;
+  background-color  : #232323;
 }
 
 span.horloge_grey
@@ -78,11 +35,11 @@ span.horloge_grey
 
 div#meteo
 {
-  right             : 0px;
-  top               : 300px;
+  left             : 0px;
+  top               : 500px;
   position          : absolute;
   overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
+  background-color  : #232323;
   color             : #FFF;
   font-weight       : bold;
   text-align        : center;
@@ -93,10 +50,10 @@ div#meteo_black
   right             : 0px;
   top               : 420px;
   width             : 600px;
-  height            : 100px;
+  height            : 200px;
   position          : absolute;
   z-index           : 9999;
-  background-color  : rgba(0, 0, 0, 1);
+  background-color  : #232323;
 }
 /* rss */
 
@@ -104,10 +61,10 @@ div#meteo_black
 {
   width             : 600px;
   right             : 0px;
-  top               : 400px;
+  top               : 500px;
   position          : absolute;
   z-index           : 99;
-  background-color  : rgb(0, 0, 0);
+  background-color  :#232323;
 }
 
 .rss_texte
@@ -135,19 +92,61 @@ div#meteo_black
   padding-right: 5px;
 }
 
-/* site */
 
-div#site
-{
-  left              : 0px;
-  top               : 0px;
-  width             : 40px ;
-  height            : 40px ;
-
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-  color             : #FFF;
-  font-weight       : bold;
-  text-align        : center;
+/*slider*/
+:root {
+  --white: #ffffff;
+  --text-color: #dedede;
+  --bg-color: #232323;
+  --other: #da7948;
 }
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.projects {
+  display: flex;
+  align-items: center;
+  gap: 4vmin;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(0%, -55%);
+}
+
+img.proj-img {
+  user-select: none;
+  width: 20vmin;
+  height: 30vmin;
+  object-fit: cover;
+  object-position: 100% center;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+  border: 0px solid var(--other);
+}
+
+img.proj-img:hover {
+  width: 30vmin;
+height: 40vmin;
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+border: 5px solid var(--other);
+
+}
+
+

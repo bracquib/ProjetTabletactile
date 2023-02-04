@@ -14,7 +14,7 @@
   function meteo () {
 
     $meteo = '<div id="cont_MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8">
-    <div id="spa_MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8"><a id="a_MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8" href="https://www.meteocity.com/france/grenoble-v3014728?utm_medium=widget&utm_source=referral&utm_campaign=france-grenoble-v3014728&utm_content=location" target="_top" style="color:#333;text-decoration:none;">Météo Grenoble</a> ©<a target="_top" href="https://www.meteocity.com?utm_medium=widget&utm_campaign=france-grenoble-v3014728&utm_content=homepage">M6météo</a></div>
+    <div id="spa_MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8"><a id="a_MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8" href="https://www.meteocity.com/france/grenoble-v3014728?utm_medium=widget&utm_source=referral&utm_campaign=france-grenoble-v3014728&utm_content=location" target="_top" style="color:#333;text-decoration:none;"></a><a target="_top" href="https://www.meteocity.com?utm_medium=widget&utm_campaign=france-grenoble-v3014728&utm_content=homepage"></a></div>
     <script type="text/javascript" src="https://www.meteocity.com/widget/js/MzAxNDcyOHw1fDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8"></script>
 </div>
 ';
@@ -61,16 +61,6 @@
     }
   
 
-  /////////////////////////////////////////////////
-  //  Site
-  /////////////////////////////////////////////////
-  
-  function site () {
-    $html = '<div id="cont_MzAxNDcyOHwxfDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8">
-    <a id="a_MzAxNDcyOHwxfDR8MXwxfCMwMDAwMDB8MnwjZmZmZmZmfGd8" href="https://www.polytech-grenoble.fr/fr/" target="_top" style="color:#333;text-decoration:none;">
-    <img src="./polytech.png"></a>
-    </div>';    
-return $html;
+ 
 
-  }
 ?>
