@@ -20,12 +20,24 @@
       <div id="meteo"></div>
       <div id="rss"></div>
       <div id="projects-wrapper" class="projects" data-mouse-down-at="0" data-prev-percentage="0">
-        <img draggable="false" class="proj-img" src="" srcset="">
-        <img draggable="false"  class="proj-img" src="" srcset="">
-        <img draggable="false"  class="proj-img" src="" srcset="">
-        <img draggable="false"  class="proj-img" src="#" alt="" srcset="">
-        <img draggable="false" class="proj-img" src="#" alt="" srcset="">
-        <img draggable="false"  class="proj-img" src="#" alt="" srcset="">
+        <a href="./JavaScript-Snake-master/index.html">
+          <img draggable="false" class="proj-img" src="./snake.jpg" srcset="">
+        </a>
+        <a href="https://www.polytech-grenoble.fr/">
+          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        </a>
+        <a href="https://www.polytech-grenoble.fr/">
+          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        </a>
+        <a href="https://www.polytech-grenoble.fr/">
+          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        </a>        
+        <a href="https://www.polytech-grenoble.fr/">
+          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        </a>
+        <a href="https://www.polytech-grenoble.fr/">
+          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        </a>
       </div>
       <script src="./test.js"></script>
     </div>
