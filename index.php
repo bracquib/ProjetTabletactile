@@ -20,20 +20,29 @@
       <div id="meteo"></div>
       <div id="rss"></div>
       <div id="projects-wrapper" class="projects" data-mouse-down-at="0" data-prev-percentage="0">
-        <a href="./JavaScript-Snake-master/index.html">
+        <a href="./SnakeGame/index.html">
           <img draggable="false" class="proj-img" src="./snake.jpg" srcset="">
         </a>
-        <a href="https://www.polytech-grenoble.fr/">
-          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        <a href="./Snake-Game/index.html">
+          <img draggable="false" class="proj-img" src="./snake.jpg" srcset="">
         </a>
-        <a href="https://www.polytech-grenoble.fr/">
-          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        <a href="./snake-game/docs/index.html">
+          <img draggable="false" class="proj-img" src="./snake.jpg" srcset="">
         </a>
-        <a href="https://www.polytech-grenoble.fr/">
-          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
-        </a>        
-        <a href="https://www.polytech-grenoble.fr/">
-          <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
+        <a href="https://parasist.wp-corp.eu.org/#">
+          <img draggable="false" class="proj-img" src="./parasite.png" srcset="">
+        </a>
+        <a href="./buble.php">
+          <img draggable="false" class="proj-img" src="./bubble.png" srcset="">
+        </a>
+        <a href="./chess.php">
+          <img draggable="false" class="proj-img" src="./chess.jpeg" srcset="">
+        </a>
+        <a href="./vue2048/index.html">
+          <img draggable="false" class="proj-img" src="./2048_logo.png" srcset="">
+        </a>
+        <a href="./2048-game/docs/index.html">
+          <img draggable="false" class="proj-img" src="./2048_logo.png" srcset="">
         </a>
         <a href="https://www.polytech-grenoble.fr/">
           <img draggable="false" class="proj-img" src="./polytech1.png" srcset="">
